@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #ebeef3;
+}
+
+body ul {
+  padding-left: 0px;
+}
+
+
+.product-content {
+  height: calc(100vh - 100px);
+  margin: 100px 30px 30px 230px;
+  z-index: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 #cfd7df, 0 4px 24px 0 #ebeff3;
+  border-radius: 6px;
+  padding: 32px;
+}
+
